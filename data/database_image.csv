@@ -1,0 +1,151 @@
+image,label
+/kaggle/input/vietnamese-foods/Images/Test/Banh cuon/208.jpg,2
+/kaggle/input/vietnamese-foods/Images/Test/Banh cuon/1024.jpg,2
+/kaggle/input/vietnamese-foods/Images/Test/Banh cuon/45.jpg,2
+/kaggle/input/vietnamese-foods/Images/Test/Banh cuon/369.jpg,2
+/kaggle/input/vietnamese-foods/Images/Test/Banh cuon/212.jpg,2
+/kaggle/input/vietnamese-foods/Images/Test/Mi quang/820.jpg,27
+/kaggle/input/vietnamese-foods/Images/Test/Mi quang/785.jpg,27
+/kaggle/input/vietnamese-foods/Images/Test/Mi quang/792.jpg,27
+/kaggle/input/vietnamese-foods/Images/Test/Mi quang/521.jpg,27
+/kaggle/input/vietnamese-foods/Images/Test/Mi quang/539.jpg,27
+/kaggle/input/vietnamese-foods/Images/Test/Banh trang nuong/239.jpg,23
+/kaggle/input/vietnamese-foods/Images/Test/Banh trang nuong/792.jpg,23
+/kaggle/input/vietnamese-foods/Images/Test/Banh trang nuong/149.jpg,23
+/kaggle/input/vietnamese-foods/Images/Test/Banh trang nuong/539.jpg,23
+/kaggle/input/vietnamese-foods/Images/Test/Banh trang nuong/342.jpg,23
+/kaggle/input/vietnamese-foods/Images/Test/Goi cuon/764.jpg,16
+/kaggle/input/vietnamese-foods/Images/Test/Goi cuon/89.jpg,16
+/kaggle/input/vietnamese-foods/Images/Test/Goi cuon/275.jpg,16
+/kaggle/input/vietnamese-foods/Images/Test/Goi cuon/239.jpg,16
+/kaggle/input/vietnamese-foods/Images/Test/Goi cuon/149.jpg,16
+/kaggle/input/vietnamese-foods/Images/Test/Banh gio/45.jpg,4
+/kaggle/input/vietnamese-foods/Images/Test/Banh gio/539.jpg,4
+/kaggle/input/vietnamese-foods/Images/Test/Banh gio/215.jpg,4
+/kaggle/input/vietnamese-foods/Images/Test/Banh gio/131.jpg,4
+/kaggle/input/vietnamese-foods/Images/Test/Banh gio/446.jpg,4
+/kaggle/input/vietnamese-foods/Images/Test/Bun mam/623.jpg,11
+/kaggle/input/vietnamese-foods/Images/Test/Bun mam/771.jpg,11
+/kaggle/input/vietnamese-foods/Images/Test/Bun mam/45.jpg,11
+/kaggle/input/vietnamese-foods/Images/Test/Bun mam/654.jpg,11
+/kaggle/input/vietnamese-foods/Images/Test/Bun mam/89.jpg,11
+/kaggle/input/vietnamese-foods/Images/Test/Canh chua/537.jpg,24
+/kaggle/input/vietnamese-foods/Images/Test/Canh chua/45.jpg,24
+/kaggle/input/vietnamese-foods/Images/Test/Canh chua/89.jpg,24
+/kaggle/input/vietnamese-foods/Images/Test/Canh chua/785.jpg,24
+/kaggle/input/vietnamese-foods/Images/Test/Canh chua/239.jpg,24
+/kaggle/input/vietnamese-foods/Images/Test/Nem chua/473.jpg,28
+/kaggle/input/vietnamese-foods/Images/Test/Nem chua/89.jpg,28
+/kaggle/input/vietnamese-foods/Images/Test/Nem chua/212.jpg,28
+/kaggle/input/vietnamese-foods/Images/Test/Nem chua/58.jpg,28
+/kaggle/input/vietnamese-foods/Images/Test/Nem chua/6.jpg,28
+/kaggle/input/vietnamese-foods/Images/Test/Bun rieu/623.jpg,12
+/kaggle/input/vietnamese-foods/Images/Test/Bun rieu/1024.jpg,12
+/kaggle/input/vietnamese-foods/Images/Test/Bun rieu/56.jpg,12
+/kaggle/input/vietnamese-foods/Images/Test/Bun rieu/275.jpg,12
+/kaggle/input/vietnamese-foods/Images/Test/Bun rieu/792.jpg,12
+/kaggle/input/vietnamese-foods/Images/Test/Banh duc/623.jpg,3
+/kaggle/input/vietnamese-foods/Images/Test/Banh duc/89.jpg,3
+/kaggle/input/vietnamese-foods/Images/Test/Banh duc/275.jpg,3
+/kaggle/input/vietnamese-foods/Images/Test/Banh duc/239.jpg,3
+/kaggle/input/vietnamese-foods/Images/Test/Banh duc/521.jpg,3
+/kaggle/input/vietnamese-foods/Images/Test/Banh pia/369.jpg,6
+/kaggle/input/vietnamese-foods/Images/Test/Banh pia/56.jpg,6
+/kaggle/input/vietnamese-foods/Images/Test/Banh pia/58.jpg,6
+/kaggle/input/vietnamese-foods/Images/Test/Banh pia/150.jpg,6
+/kaggle/input/vietnamese-foods/Images/Test/Banh pia/355.jpg,6
+/kaggle/input/vietnamese-foods/Images/Test/Banh canh/771.jpg,21
+/kaggle/input/vietnamese-foods/Images/Test/Banh canh/654.jpg,21
+/kaggle/input/vietnamese-foods/Images/Test/Banh canh/89.jpg,21
+/kaggle/input/vietnamese-foods/Images/Test/Banh canh/275.jpg,21
+/kaggle/input/vietnamese-foods/Images/Test/Banh canh/792.jpg,21
+/kaggle/input/vietnamese-foods/Images/Test/Banh khot/537.jpg,22
+/kaggle/input/vietnamese-foods/Images/Test/Banh khot/45.jpg,22
+/kaggle/input/vietnamese-foods/Images/Test/Banh khot/89.jpg,22
+/kaggle/input/vietnamese-foods/Images/Test/Banh khot/342.jpg,22
+/kaggle/input/vietnamese-foods/Images/Test/Banh khot/795.jpg,22
+/kaggle/input/vietnamese-foods/Images/Test/Banh bot loc/473.jpg,19
+/kaggle/input/vietnamese-foods/Images/Test/Banh bot loc/654.jpg,19
+/kaggle/input/vietnamese-foods/Images/Test/Banh bot loc/150.jpg,19
+/kaggle/input/vietnamese-foods/Images/Test/Banh bot loc/6.jpg,19
+/kaggle/input/vietnamese-foods/Images/Test/Banh bot loc/355.jpg,19
+/kaggle/input/vietnamese-foods/Images/Test/Banh can/369.jpg,20
+/kaggle/input/vietnamese-foods/Images/Test/Banh can/539.jpg,20
+/kaggle/input/vietnamese-foods/Images/Test/Banh can/516.jpg,20
+/kaggle/input/vietnamese-foods/Images/Test/Banh can/544.jpg,20
+/kaggle/input/vietnamese-foods/Images/Test/Banh can/476.jpg,20
+/kaggle/input/vietnamese-foods/Images/Test/Bun thit nuong/212.jpg,13
+/kaggle/input/vietnamese-foods/Images/Test/Bun thit nuong/239.jpg,13
+/kaggle/input/vietnamese-foods/Images/Test/Bun thit nuong/187.jpg,13
+/kaggle/input/vietnamese-foods/Images/Test/Bun thit nuong/521.jpg,13
+/kaggle/input/vietnamese-foods/Images/Test/Bun thit nuong/516.jpg,13
+/kaggle/input/vietnamese-foods/Images/Test/Banh chung/333.jpg,1
+/kaggle/input/vietnamese-foods/Images/Test/Banh chung/89.jpg,1
+/kaggle/input/vietnamese-foods/Images/Test/Banh chung/150.jpg,1
+/kaggle/input/vietnamese-foods/Images/Test/Banh chung/109.jpg,1
+/kaggle/input/vietnamese-foods/Images/Test/Banh chung/71.jpg,1
+/kaggle/input/vietnamese-foods/Images/Test/Bun dau mam tom/333.jpg,10
+/kaggle/input/vietnamese-foods/Images/Test/Bun dau mam tom/275.jpg,10
+/kaggle/input/vietnamese-foods/Images/Test/Bun dau mam tom/212.jpg,10
+/kaggle/input/vietnamese-foods/Images/Test/Bun dau mam tom/58.jpg,10
+/kaggle/input/vietnamese-foods/Images/Test/Bun dau mam tom/150.jpg,10
+/kaggle/input/vietnamese-foods/Images/Test/Banh beo/56.jpg,0
+/kaggle/input/vietnamese-foods/Images/Test/Banh beo/212.jpg,0
+/kaggle/input/vietnamese-foods/Images/Test/Banh beo/239.jpg,0
+/kaggle/input/vietnamese-foods/Images/Test/Banh beo/58.jpg,0
+/kaggle/input/vietnamese-foods/Images/Test/Banh beo/109.jpg,0
+/kaggle/input/vietnamese-foods/Images/Test/Banh tet/623.jpg,7
+/kaggle/input/vietnamese-foods/Images/Test/Banh tet/369.jpg,7
+/kaggle/input/vietnamese-foods/Images/Test/Banh tet/654.jpg,7
+/kaggle/input/vietnamese-foods/Images/Test/Banh tet/20.jpg,7
+/kaggle/input/vietnamese-foods/Images/Test/Banh tet/239.jpg,7
+/kaggle/input/vietnamese-foods/Images/Test/Cao lau/208.jpg,25
+/kaggle/input/vietnamese-foods/Images/Test/Cao lau/56.jpg,25
+/kaggle/input/vietnamese-foods/Images/Test/Cao lau/109.jpg,25
+/kaggle/input/vietnamese-foods/Images/Test/Cao lau/187.jpg,25
+/kaggle/input/vietnamese-foods/Images/Test/Cao lau/474.jpg,25
+/kaggle/input/vietnamese-foods/Images/Test/Chao long/473.jpg,26
+/kaggle/input/vietnamese-foods/Images/Test/Chao long/212.jpg,26
+/kaggle/input/vietnamese-foods/Images/Test/Chao long/436.jpg,26
+/kaggle/input/vietnamese-foods/Images/Test/Chao long/760.jpg,26
+/kaggle/input/vietnamese-foods/Images/Test/Chao long/342.jpg,26
+/kaggle/input/vietnamese-foods/Images/Test/Ca kho to/333.jpg,14
+/kaggle/input/vietnamese-foods/Images/Test/Ca kho to/275.jpg,14
+/kaggle/input/vietnamese-foods/Images/Test/Ca kho to/212.jpg,14
+/kaggle/input/vietnamese-foods/Images/Test/Ca kho to/58.jpg,14
+/kaggle/input/vietnamese-foods/Images/Test/Ca kho to/149.jpg,14
+/kaggle/input/vietnamese-foods/Images/Test/Bun bo Hue/1269.jpg,9
+/kaggle/input/vietnamese-foods/Images/Test/Bun bo Hue/623.jpg,9
+/kaggle/input/vietnamese-foods/Images/Test/Bun bo Hue/1501.jpg,9
+/kaggle/input/vietnamese-foods/Images/Test/Bun bo Hue/1385.jpg,9
+/kaggle/input/vietnamese-foods/Images/Test/Bun bo Hue/1354.jpg,9
+/kaggle/input/vietnamese-foods/Images/Test/Pho/369.jpg,18
+/kaggle/input/vietnamese-foods/Images/Test/Pho/56.jpg,18
+/kaggle/input/vietnamese-foods/Images/Test/Pho/239.jpg,18
+/kaggle/input/vietnamese-foods/Images/Test/Pho/150.jpg,18
+/kaggle/input/vietnamese-foods/Images/Test/Pho/76.jpg,18
+/kaggle/input/vietnamese-foods/Images/Test/Xoi xeo/45.jpg,29
+/kaggle/input/vietnamese-foods/Images/Test/Xoi xeo/275.jpg,29
+/kaggle/input/vietnamese-foods/Images/Test/Xoi xeo/149.jpg,29
+/kaggle/input/vietnamese-foods/Images/Test/Xoi xeo/355.jpg,29
+/kaggle/input/vietnamese-foods/Images/Test/Xoi xeo/342.jpg,29
+/kaggle/input/vietnamese-foods/Images/Test/Banh mi/473.jpg,5
+/kaggle/input/vietnamese-foods/Images/Test/Banh mi/333.jpg,5
+/kaggle/input/vietnamese-foods/Images/Test/Banh mi/1024.jpg,5
+/kaggle/input/vietnamese-foods/Images/Test/Banh mi/654.jpg,5
+/kaggle/input/vietnamese-foods/Images/Test/Banh mi/89.jpg,5
+/kaggle/input/vietnamese-foods/Images/Test/Banh xeo/208.jpg,8
+/kaggle/input/vietnamese-foods/Images/Test/Banh xeo/1024.jpg,8
+/kaggle/input/vietnamese-foods/Images/Test/Banh xeo/45.jpg,8
+/kaggle/input/vietnamese-foods/Images/Test/Banh xeo/654.jpg,8
+/kaggle/input/vietnamese-foods/Images/Test/Banh xeo/1161.jpg,8
+/kaggle/input/vietnamese-foods/Images/Test/Com tam/764.jpg,15
+/kaggle/input/vietnamese-foods/Images/Test/Com tam/473.jpg,15
+/kaggle/input/vietnamese-foods/Images/Test/Com tam/537.jpg,15
+/kaggle/input/vietnamese-foods/Images/Test/Com tam/45.jpg,15
+/kaggle/input/vietnamese-foods/Images/Test/Com tam/56.jpg,15
+/kaggle/input/vietnamese-foods/Images/Test/Hu tieu/771.jpg,17
+/kaggle/input/vietnamese-foods/Images/Test/Hu tieu/473.jpg,17
+/kaggle/input/vietnamese-foods/Images/Test/Hu tieu/6.jpg,17
+/kaggle/input/vietnamese-foods/Images/Test/Hu tieu/355.jpg,17
+/kaggle/input/vietnamese-foods/Images/Test/Hu tieu/682.jpg,17
