@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Query VietNamese Cuisine</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f4f7;
+            background-image: url('D:/tanlailaptrinhpython/Computer_Vision/venv_GEO/static/images/IMG_0122.JPG');
+            background-size: cover;
+            background-position: center;
+            padding: 40px 0;
+            color: #333;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 30px;
+        }
+
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            animation: fadeIn 1s ease-in;
+        }
+
+        header h1 {
+            text-align: center;
+            color: #007bff;
+            margin-bottom: 20px;
+            font-size: 2.5rem;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        .upload-form {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .form-group {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .form-group label {
+            font-size: 1rem;
+            margin-bottom: 8px;
+            color: #333;
+        }
+
+        .form-group input[type="text"], .form-group input[type="file"] {
+            padding: 12px;
+            font-size: 1rem;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            outline: none;
+            transition: border 0.3s ease;
+        }
+
+        .form-group input[type="text"]:focus, .form-group input[type="file"]:focus {
+            border-color: #007bff;
+        }
+
+        .btn-submit {
+            padding: 14px 24px;
+            font-size: 1.2rem;
+            background-color: #28a745;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            width: 100%;
+        }
+
+        .btn-submit:hover {
+            background-color: #218838;
+        }
+
+        .result {
+            margin-top: 30px;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .result h2 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .text-result {
+            font-size: 1.2rem;
+            color: #555;
+            line-height: 1.6;
+        }
+
+        .image-result {
+            max-width: 100%;
+            max-height: 400px;
+            margin-top: 20px;
+            border-radius: 8px;
+        }
+
+        .error-message {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #f8d7da;
+            color: #721c24;
+            border-radius: 5px;
+            text-align: center;
+            font-size: 1rem;
+        }
+
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
+        /* Responsive Design */
+        @media screen and (max-width: 768px) {
+            .container {
+                padding: 20px;
+            }
+
+            header h1 {
+                font-size: 2rem;
+            }
+
+            .form-group input[type="text"], .form-group input[type="file"] {
+                font-size: 1rem;
+            }
+
+            .btn-submit {
+                font-size: 1rem;
+                padding: 10px;
+            }
+
+            table {
+                font-size: 0.9rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Hãy nhập món ăn bạn muốn sử dụng hoặc hình ảnh về món ăn bạn muốn ăn</h1>
+        </header>
+
+        <!-- Form -->
+        <form action="/" method="post" enctype="multipart/form-data" class="upload-form">
+            <div class="form-group">
+                <label for="text">Enter Text:</label>
+                <input type="text" name="text" id="text" placeholder="Enter some text...">
+            </div>
+            <div class="form-group">
+                <label for="image">Select Image:</label>
+                <input type="file" name="image" id="image" accept="image/*">
+            </div>
+            <button type="submit" class="btn-submit">Enter</button>
+            <button type="submit" class="btn-submit">Show</button>
+            <h2>Lưu ý: Nếu bạn không biết ăn gì thì bấm vào nút Show chương trình sẽ đưa ra những quán ăn gần bạn nhất</h2>
+        </form>
+
+        {% if error_message %}
+            <div class="error-message">{{ error_message }}</div>
+        {% endif %}
+
+        <!-- Display Results -->
+        <div class="result">
+            {% if text %}
+                <h2>Entered Text:</h2>
+                <p class="text-result">{{ text }}</p>
+            {% endif %}
+            
+            {% if image_url %}
+                <h2>Uploaded Image:</h2>
+                <img src="{{ image_url }}" alt="Uploaded Image" class="image-result">
+            {% endif %}
+        </div>
+    </div>
+
+
+    <h2>Vị trí hiện tại của bạn: {{ location }}</h2>
+    <!-- Table of Results -->
+    <table>
+        <thead>
+            <tr>
+                <th>Image</th>
+                <th>Information</th>
+                <th>Rating</th>
+                <th>Address</th>
+                <th>Distance</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for row in data %}
+            <tr>
+                <td><img src="{{ url_for('static', filename=row['Image']) }}" alt="Image" width="100"></td>
+                <td>{{ row['Information'] }}</td>
+                <td>{{ row['Rating'] }}</td>
+                <td>{{ row['Address'] }}</td>
+                <td>{{ row['Distance'] }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+</body>
+</html>
