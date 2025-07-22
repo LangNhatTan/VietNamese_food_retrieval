@@ -8,7 +8,7 @@ This is a project about Vietnamese cuisine retrieval focused on multimodal model
 2. Open file `database_image.csv` in folder data and rename the path in column **image**.
 3. Run this script:
 ```python
-python .\web.py
+python .\web.py --weight path/to/weight/model.pth
 ```
 ## Main Libraries Used
 1. **cv2**: Image processing and computer vision.
